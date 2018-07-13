@@ -26,6 +26,7 @@ extension LoginViewController {
             .do(onNext: { [weak self] _ in
                 guard let strongSelf = self else { return }
                 strongSelf.activityIndicator.startAnimating()
+                strongSelf.errorLabel.text = nil
             })
             .map { params in .login(username: params.0, password: params.1) }
             .bind(to: reactor.action)
