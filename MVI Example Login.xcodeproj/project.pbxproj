@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259D3A86540567BF49D98167 /* Pods_MVI_Example_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4A77326C46065250E225FF /* Pods_MVI_Example_Login.framework */; };
+		C642588F20F895DB00BB01EF /* Bool+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642588E20F895DB00BB01EF /* Bool+Extension.swift */; };
 		C67F983520F882F400C7BE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F983420F882F400C7BE4F /* AppDelegate.swift */; };
-		C67F983720F882F400C7BE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F983620F882F400C7BE4F /* ViewController.swift */; };
-		C67F983A20F882F400C7BE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67F983820F882F400C7BE4F /* Main.storyboard */; };
+		C67F983720F882F400C7BE4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F983620F882F400C7BE4F /* LoginViewController.swift */; };
 		C67F983C20F882F700C7BE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67F983B20F882F700C7BE4F /* Assets.xcassets */; };
 		C67F983F20F882F700C7BE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67F983D20F882F700C7BE4F /* LaunchScreen.storyboard */; };
+		C67F984D20F888DB00C7BE4F /* LoginViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F984C20F888DB00C7BE4F /* LoginViewController+UI.swift */; };
+		C67F984F20F888F800C7BE4F /* LoginViewController+viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F984E20F888F800C7BE4F /* LoginViewController+viewModel.swift */; };
+		C67F985120F8892D00C7BE4F /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F985020F8892D00C7BE4F /* LoginReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4A77326C46065250E225FF /* Pods_MVI_Example_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVI_Example_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2F933B0510EE51C3889D73 /* Pods-MVI Example Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVI Example Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVI Example Login/Pods-MVI Example Login.release.xcconfig"; sourceTree = "<group>"; };
+		929687C00137DD8B8A803B9E /* Pods-MVI Example Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVI Example Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVI Example Login/Pods-MVI Example Login.debug.xcconfig"; sourceTree = "<group>"; };
+		C642588E20F895DB00BB01EF /* Bool+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extension.swift"; sourceTree = "<group>"; };
 		C67F983120F882F400C7BE4F /* MVI Example Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVI Example Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67F983420F882F400C7BE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C67F983620F882F400C7BE4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C67F983920F882F400C7BE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67F983620F882F400C7BE4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C67F983B20F882F700C7BE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67F983E20F882F700C7BE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C67F984020F882F700C7BE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67F984C20F888DB00C7BE4F /* LoginViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+UI.swift"; sourceTree = "<group>"; };
+		C67F984E20F888F800C7BE4F /* LoginViewController+viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+viewModel.swift"; sourceTree = "<group>"; };
+		C67F985020F8892D00C7BE4F /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259D3A86540567BF49D98167 /* Pods_MVI_Example_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB3316040603477FA68F2B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A77326C46065250E225FF /* Pods_MVI_Example_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6237311B630FAADF3E40C322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				929687C00137DD8B8A803B9E /* Pods-MVI Example Login.debug.xcconfig */,
+				6E2F933B0510EE51C3889D73 /* Pods-MVI Example Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C642588C20F895C800BB01EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C642588D20F895CE00BB01EF /* Extensions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C642588D20F895CE00BB01EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C642588E20F895DB00BB01EF /* Bool+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C67F982820F882F400C7BE4F = {
 			isa = PBXGroup;
 			children = (
 				C67F983320F882F400C7BE4F /* MVI Example Login */,
 				C67F983220F882F400C7BE4F /* Products */,
+				6237311B630FAADF3E40C322 /* Pods */,
+				2EB3316040603477FA68F2B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,57 @@
 		C67F983320F882F400C7BE4F /* MVI Example Login */ = {
 			isa = PBXGroup;
 			children = (
-				C67F983420F882F400C7BE4F /* AppDelegate.swift */,
-				C67F983620F882F400C7BE4F /* ViewController.swift */,
-				C67F983820F882F400C7BE4F /* Main.storyboard */,
+				C642588C20F895C800BB01EF /* Support */,
+				C67F984820F8847B00C7BE4F /* Global */,
+				C67F984720F8847100C7BE4F /* Screens */,
 				C67F983B20F882F700C7BE4F /* Assets.xcassets */,
 				C67F983D20F882F700C7BE4F /* LaunchScreen.storyboard */,
 				C67F984020F882F700C7BE4F /* Info.plist */,
 			);
 			path = "MVI Example Login";
+			sourceTree = "<group>";
+		};
+		C67F984720F8847100C7BE4F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C67F984B20F884CA00C7BE4F /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C67F984820F8847B00C7BE4F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C67F983420F882F400C7BE4F /* AppDelegate.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C67F984920F8849F00C7BE4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C67F983620F882F400C7BE4F /* LoginViewController.swift */,
+				C67F984C20F888DB00C7BE4F /* LoginViewController+UI.swift */,
+				C67F984E20F888F800C7BE4F /* LoginViewController+viewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C67F984A20F884A800C7BE4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C67F985020F8892D00C7BE4F /* LoginReactor.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C67F984B20F884CA00C7BE4F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C67F984A20F884A800C7BE4F /* ViewModel */,
+				C67F984920F8849F00C7BE4F /* View */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C67F984320F882F700C7BE4F /* Build configuration list for PBXNativeTarget "MVI Example Login" */;
 			buildPhases = (
+				246E6203CF29810A5664F3D4 /* [CP] Check Pods Manifest.lock */,
 				C67F982D20F882F400C7BE4F /* Sources */,
 				C67F982E20F882F400C7BE4F /* Frameworks */,
 				C67F982F20F882F400C7BE4F /* Resources */,
+				1B728B89B23107430AA03B9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +215,75 @@
 			files = (
 				C67F983F20F882F700C7BE4F /* LaunchScreen.storyboard in Resources */,
 				C67F983C20F882F700C7BE4F /* Assets.xcassets in Resources */,
-				C67F983A20F882F400C7BE4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B728B89B23107430AA03B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVI Example Login/Pods-MVI Example Login-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVI Example Login/Pods-MVI Example Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		246E6203CF29810A5664F3D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVI Example Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C67F982D20F882F400C7BE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C67F983720F882F400C7BE4F /* ViewController.swift in Sources */,
+				C67F983720F882F400C7BE4F /* LoginViewController.swift in Sources */,
+				C67F984F20F888F800C7BE4F /* LoginViewController+viewModel.swift in Sources */,
+				C67F985120F8892D00C7BE4F /* LoginReactor.swift in Sources */,
+				C642588F20F895DB00BB01EF /* Bool+Extension.swift in Sources */,
 				C67F983520F882F400C7BE4F /* AppDelegate.swift in Sources */,
+				C67F984D20F888DB00C7BE4F /* LoginViewController+UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C67F983820F882F400C7BE4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C67F983920F882F400C7BE4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C67F983D20F882F700C7BE4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +411,7 @@
 		};
 		C67F984420F882F700C7BE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929687C00137DD8B8A803B9E /* Pods-MVI Example Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +430,7 @@
 		};
 		C67F984520F882F700C7BE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2F933B0510EE51C3889D73 /* Pods-MVI Example Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
